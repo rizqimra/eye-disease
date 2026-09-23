@@ -1,0 +1,63 @@
+{
+  "os": "Linux-6.1.0-43-amd64-x86_64-with-glibc2.36",
+  "python": "CPython 3.13.2",
+  "startedAt": "2026-03-13T07:01:41.330296Z",
+  "args": [
+    "--wandb",
+    "--wandb_project",
+    "eye-disease-classification",
+    "--wandb_run_name",
+    "resnet50_dcgan64",
+    "--aug_dir",
+    "augmented/"
+  ],
+  "program": "/mnt/extended-home/rizqimrazhari/eye-disease/classification.py",
+  "codePath": "classification.py",
+  "codePathLocal": "classification.py",
+  "git": {
+    "remote": "https://github.com/rizqimra/eye-disease.git",
+    "commit": "0f3b71ad1233fa7cafedb3d357482935d442f5fd"
+  },
+  "email": "rizqimrazhari@gmail.com",
+  "root": "/mnt/extended-home/rizqimrazhari/eye-disease",
+  "host": "labkc-l40-debian",
+  "executable": "/mnt/extended-home/rizqimrazhari/miniconda3/envs/retina/bin/python",
+  "cpu_count": 80,
+  "cpu_count_logical": 80,
+  "gpu": "NVIDIA L40",
+  "gpu_count": 3,
+  "disk": {
+    "/": {
+      "total": "268416708608",
+      "used": "12153610240"
+    }
+  },
+  "memory": {
+    "total": "304266973184"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA L40",
+      "memoryTotal": "48305799168",
+      "cudaCores": 18176,
+      "architecture": "Ada",
+      "uuid": "GPU-8ad971ea-ead5-89bd-c26c-b7b0d3015d3e"
+    },
+    {
+      "name": "NVIDIA L40",
+      "memoryTotal": "48305799168",
+      "cudaCores": 18176,
+      "architecture": "Ada",
+      "uuid": "GPU-1deacedb-a30e-5ea8-065c-9853cf242274"
+    },
+    {
+      "name": "NVIDIA L40",
+      "memoryTotal": "48305799168",
+      "cudaCores": 18176,
+      "architecture": "Ada",
+      "uuid": "GPU-d444c854-0016-c5ec-b31e-ecb35f9b11b8"
+    }
+  ],
+  "cudaVersion": "12.2",
+  "writerId": "ebxji5k8exba5b6lgtu95122htbz5d60"
+}

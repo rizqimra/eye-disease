@@ -1,0 +1,112 @@
+_wandb:
+    value:
+        cli_version: 0.27.2
+        e:
+            q2ka6tyaznz35s13t5p78noab3mbjgg0:
+                args:
+                    - --wandb
+                    - --wandb_project
+                    - eye-disease-classification
+                    - --wandb_run_name
+                    - resnet50_acdcgan64
+                    - --aug_dir
+                    - augmented_acdcgan/
+                codePath: classification.py
+                codePathLocal: classification.py
+                cpu_count: 80
+                cpu_count_logical: 80
+                cudaVersion: "12.2"
+                disk:
+                    /:
+                        total: "268416708608"
+                        used: "28419256320"
+                email: rizqimrazhari@gmail.com
+                executable: /mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/bin/python
+                git:
+                    remote: https://github.com/rizqimra/eye-disease.git
+                gpu: NVIDIA L40
+                gpu_count: 3
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 18176
+                      memoryTotal: "48305799168"
+                      name: NVIDIA L40
+                      uuid: GPU-8ad971ea-ead5-89bd-c26c-b7b0d3015d3e
+                    - architecture: Ada
+                      cudaCores: 18176
+                      memoryTotal: "48305799168"
+                      name: NVIDIA L40
+                      uuid: GPU-1deacedb-a30e-5ea8-065c-9853cf242274
+                    - architecture: Ada
+                      cudaCores: 18176
+                      memoryTotal: "48305799168"
+                      name: NVIDIA L40
+                      uuid: GPU-d444c854-0016-c5ec-b31e-ecb35f9b11b8
+                host: labkc-l40-debian
+                memory:
+                    total: "304266973184"
+                os: Linux-6.1.0-43-amd64-x86_64-with-glibc2.36
+                program: /mnt/nas-hpg9/rizqimrazhari/eye-disease/classification.py
+                python: CPython 3.10.20
+                root: /mnt/nas-hpg9/rizqimrazhari/eye-disease
+                startedAt: "2026-06-12T02:42:27.621988Z"
+                writerId: q2ka6tyaznz35s13t5p78noab3mbjgg0
+        m: []
+        python_version: 3.10.20
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 51
+                - 53
+            "2":
+                - 1
+                - 5
+                - 41
+                - 51
+                - 53
+            "3":
+                - 1
+                - 2
+                - 13
+                - 16
+                - 61
+            "4": 3.10.20
+            "5": 0.27.2
+            "12": 0.27.2
+            "13": linux-x86_64
+aug_dir:
+    value: augmented_acdcgan/
+batch_size:
+    value: 32
+data_dir:
+    value: dataset/
+device:
+    value: cuda
+exp_name:
+    value: resnet50
+image_size:
+    value: 224
+lr:
+    value: 0.001
+momentum:
+    value: 0.9
+num_epochs:
+    value: 20
+seed:
+    value: 42
+test_pct:
+    value: 0.2
+use_weighted_loss:
+    value: false
+val_pct:
+    value: 0.2
+wandb:
+    value: true
+wandb_entity:
+    value: null
+wandb_project:
+    value: eye-disease-classification
+wandb_run_name:
+    value: resnet50_acdcgan64

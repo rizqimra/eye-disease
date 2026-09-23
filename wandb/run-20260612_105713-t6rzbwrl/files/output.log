@@ -1,0 +1,28 @@
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 1/20 train_loss 0.5679 train_acc 0.7600 val_acc 0.5900 val_prec 0.4101 val_recall 0.5500 val_f1 0.4254 val_auc 0.7751
+Epoch 2/20 train_loss 0.3552 train_acc 0.8483 val_acc 0.5000 val_prec 0.6152 val_recall 0.6667 val_f1 0.5108 val_auc 0.8649
+Epoch 3/20 train_loss 0.3852 train_acc 0.8367 val_acc 0.6900 val_prec 0.6894 val_recall 0.5833 val_f1 0.5651 val_auc 0.8353
+Epoch 4/20 train_loss 0.3329 train_acc 0.8550 val_acc 0.6000 val_prec 0.6600 val_recall 0.5667 val_f1 0.5697 val_auc 0.7776
+Epoch 5/20 train_loss 0.2775 train_acc 0.9000 val_acc 0.6900 val_prec 0.6267 val_recall 0.6611 val_f1 0.6000 val_auc 0.8785
+Epoch 6/20 train_loss 0.2205 train_acc 0.9117 val_acc 0.6000 val_prec 0.6216 val_recall 0.6889 val_f1 0.6022 val_auc 0.8882
+Epoch 7/20 train_loss 0.2278 train_acc 0.9167 val_acc 0.4300 val_prec 0.6484 val_recall 0.5722 val_f1 0.4945 val_auc 0.7767
+Epoch 8/20 train_loss 0.2647 train_acc 0.9050 val_acc 0.7700 val_prec 0.7921 val_recall 0.6389 val_f1 0.6802 val_auc 0.8650
+Epoch 9/20 train_loss 0.2049 train_acc 0.9200 val_acc 0.7400 val_prec 0.7112 val_recall 0.6444 val_f1 0.6365 val_auc 0.8892
+Epoch 10/20 train_loss 0.1512 train_acc 0.9417 val_acc 0.7800 val_prec 0.7565 val_recall 0.6667 val_f1 0.6890 val_auc 0.8981
+Epoch 11/20 train_loss 0.1292 train_acc 0.9533 val_acc 0.7700 val_prec 0.7418 val_recall 0.6500 val_f1 0.6693 val_auc 0.8914
+Epoch 12/20 train_loss 0.0874 train_acc 0.9800 val_acc 0.7400 val_prec 0.7111 val_recall 0.6778 val_f1 0.6781 val_auc 0.9093
+Epoch 13/20 train_loss 0.0786 train_acc 0.9783 val_acc 0.7800 val_prec 0.7483 val_recall 0.7222 val_f1 0.7148 val_auc 0.9193
+Epoch 14/20 train_loss 0.0643 train_acc 0.9833 val_acc 0.7600 val_prec 0.7838 val_recall 0.6222 val_f1 0.6447 val_auc 0.8531
+Epoch 15/20 train_loss 0.0508 train_acc 0.9833 val_acc 0.8000 val_prec 0.7862 val_recall 0.7111 val_f1 0.7370 val_auc 0.8867
+Epoch 16/20 train_loss 0.0632 train_acc 0.9783 val_acc 0.8100 val_prec 0.7959 val_recall 0.7389 val_f1 0.7614 val_auc 0.8928
+Epoch 17/20 train_loss 0.0338 train_acc 0.9900 val_acc 0.8000 val_prec 0.7796 val_recall 0.7111 val_f1 0.7281 val_auc 0.9019
+Epoch 18/20 train_loss 0.0385 train_acc 0.9917 val_acc 0.8000 val_prec 0.7711 val_recall 0.7222 val_f1 0.7372 val_auc 0.9061
+Epoch 19/20 train_loss 0.0390 train_acc 0.9900 val_acc 0.7800 val_prec 0.7450 val_recall 0.7111 val_f1 0.7185 val_auc 0.9079
+Epoch 20/20 train_loss 0.0288 train_acc 0.9933 val_acc 0.7900 val_prec 0.7722 val_recall 0.7056 val_f1 0.7146 val_auc 0.9076
+Test metrics: accuracy 0.7723 precision 0.7352 recall 0.7460 f1 0.7372 auc 0.8471
+Best val acc: 0.8100

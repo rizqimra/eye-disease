@@ -1,0 +1,35 @@
+/mnt/extended-home/rizqimrazhari/miniconda3/envs/retina/lib/python3.13/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mnt/extended-home/rizqimrazhari/miniconda3/envs/retina/lib/python3.13/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/mnt/extended-home/rizqimrazhari/miniconda3/envs/retina/lib/python3.13/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch 1/20 train_loss 1.1078 train_acc 0.5533 val_acc 0.4200 val_prec 0.3474 val_recall 0.4000 val_f1 0.3085 val_auc 0.4851
+Epoch 2/20 train_loss 0.8153 train_acc 0.6600 val_acc 0.2800 val_prec 0.4987 val_recall 0.3889 val_f1 0.2416 val_auc 0.6128
+Epoch 3/20 train_loss 0.5893 train_acc 0.7567 val_acc 0.5100 val_prec 0.6778 val_recall 0.6389 val_f1 0.5485 val_auc 0.8410
+Epoch 4/20 train_loss 0.5493 train_acc 0.7667 val_acc 0.7800 val_prec 0.8408 val_recall 0.6556 val_f1 0.7065 val_auc 0.9015
+Epoch 5/20 train_loss 0.4788 train_acc 0.8033 val_acc 0.5500 val_prec 0.6617 val_recall 0.6167 val_f1 0.5579 val_auc 0.8469
+Epoch 6/20 train_loss 0.3963 train_acc 0.8333 val_acc 0.7800 val_prec 0.7687 val_recall 0.7000 val_f1 0.7151 val_auc 0.8503
+Epoch 7/20 train_loss 0.3755 train_acc 0.8500 val_acc 0.6600 val_prec 0.6286 val_recall 0.6556 val_f1 0.6312 val_auc 0.8049
+Epoch 8/20 train_loss 0.3022 train_acc 0.8900 val_acc 0.7100 val_prec 0.6312 val_recall 0.5944 val_f1 0.5893 val_auc 0.8397
+Epoch 9/20 train_loss 0.1897 train_acc 0.9300 val_acc 0.7500 val_prec 0.7335 val_recall 0.5944 val_f1 0.5927 val_auc 0.8671
+Epoch 10/20 train_loss 0.1308 train_acc 0.9733 val_acc 0.7800 val_prec 0.7926 val_recall 0.6556 val_f1 0.6760 val_auc 0.8531
+Epoch 11/20 train_loss 0.0944 train_acc 0.9800 val_acc 0.7600 val_prec 0.7729 val_recall 0.6222 val_f1 0.6406 val_auc 0.8393
+Epoch 12/20 train_loss 0.0626 train_acc 0.9900 val_acc 0.7900 val_prec 0.8360 val_recall 0.6611 val_f1 0.7014 val_auc 0.8231
+Epoch 13/20 train_loss 0.0553 train_acc 0.9900 val_acc 0.8100 val_prec 0.8366 val_recall 0.6944 val_f1 0.7343 val_auc 0.8354
+Epoch 14/20 train_loss 0.0350 train_acc 0.9967 val_acc 0.8100 val_prec 0.8511 val_recall 0.6944 val_f1 0.7390 val_auc 0.8292
+Epoch 15/20 train_loss 0.0342 train_acc 0.9967 val_acc 0.8100 val_prec 0.8387 val_recall 0.7056 val_f1 0.7465 val_auc 0.8365
+Epoch 16/20 train_loss 0.0234 train_acc 1.0000 val_acc 0.8000 val_prec 0.8093 val_recall 0.6889 val_f1 0.7210 val_auc 0.8392
+Epoch 17/20 train_loss 0.0285 train_acc 0.9967 val_acc 0.8000 val_prec 0.8004 val_recall 0.6889 val_f1 0.7174 val_auc 0.8392
+Epoch 18/20 train_loss 0.0269 train_acc 1.0000 val_acc 0.7900 val_prec 0.7929 val_recall 0.6722 val_f1 0.6991 val_auc 0.8383
+Epoch 19/20 train_loss 0.0270 train_acc 0.9967 val_acc 0.7900 val_prec 0.7929 val_recall 0.6722 val_f1 0.6991 val_auc 0.8396
+Epoch 20/20 train_loss 0.0400 train_acc 0.9933 val_acc 0.8000 val_prec 0.8004 val_recall 0.6889 val_f1 0.7174 val_auc 0.8419
+/mnt/extended-home/rizqimrazhari/miniconda3/envs/retina/lib/python3.13/site-packages/plotly/matplotlylib/renderer.py:571: UserWarning:
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+Test metrics: accuracy 0.7723 precision 0.7570 recall 0.7349 f1 0.7412 auc 0.8640
+
+/mnt/extended-home/rizqimrazhari/miniconda3/envs/retina/lib/python3.13/site-packages/plotly/matplotlylib/renderer.py:571: UserWarning:
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+Best val acc: 0.8100

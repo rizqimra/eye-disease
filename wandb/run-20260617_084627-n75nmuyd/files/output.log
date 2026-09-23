@@ -1,0 +1,68 @@
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 1/20 train_loss 0.3879 train_acc 0.8289 val_acc 0.2900 val_prec 0.3476 val_recall 0.3833 val_f1 0.2068 val_auc 0.7010
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 2/20 train_loss 0.2598 train_acc 0.8911 val_acc 0.6300 val_prec 0.4093 val_recall 0.5611 val_f1 0.4492 val_auc 0.7439
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 3/20 train_loss 0.2661 train_acc 0.8944 val_acc 0.5100 val_prec 0.3851 val_recall 0.5056 val_f1 0.3737 val_auc 0.7619
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 4/20 train_loss 0.2432 train_acc 0.9011 val_acc 0.7100 val_prec 0.5119 val_recall 0.5167 val_f1 0.4943 val_auc 0.7839
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 5/20 train_loss 0.3213 train_acc 0.8967 val_acc 0.2500 val_prec 0.4035 val_recall 0.4167 val_f1 0.2493 val_auc 0.5574
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 6/20 train_loss 0.4695 train_acc 0.8378 val_acc 0.6000 val_prec 0.2000 val_recall 0.3333 val_f1 0.2500 val_auc 0.5835
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 7/20 train_loss 0.3207 train_acc 0.8667 val_acc 0.6000 val_prec 0.2000 val_recall 0.3333 val_f1 0.2500 val_auc 0.6689
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 8/20 train_loss 0.3166 train_acc 0.8656 val_acc 0.6000 val_prec 0.2000 val_recall 0.3333 val_f1 0.2500 val_auc 0.6685
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 9/20 train_loss 0.3130 train_acc 0.8667 val_acc 0.6000 val_prec 0.2000 val_recall 0.3333 val_f1 0.2500 val_auc 0.6650
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 10/20 train_loss 0.3153 train_acc 0.8667 val_acc 0.6000 val_prec 0.2000 val_recall 0.3333 val_f1 0.2500 val_auc 0.6731
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 11/20 train_loss 0.3194 train_acc 0.8656 val_acc 0.6000 val_prec 0.2000 val_recall 0.3333 val_f1 0.2500 val_auc 0.6800
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 12/20 train_loss 0.3199 train_acc 0.8611 val_acc 0.6000 val_prec 0.2000 val_recall 0.3333 val_f1 0.2500 val_auc 0.6864
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 13/20 train_loss 0.3126 train_acc 0.8678 val_acc 0.6000 val_prec 0.2000 val_recall 0.3333 val_f1 0.2500 val_auc 0.6882
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 14/20 train_loss 0.3032 train_acc 0.8711 val_acc 0.6100 val_prec 0.5354 val_recall 0.3500 val_f1 0.2833 val_auc 0.6846
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 15/20 train_loss 0.2990 train_acc 0.8733 val_acc 0.6600 val_prec 0.5461 val_recall 0.4333 val_f1 0.4136 val_auc 0.6851
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 16/20 train_loss 0.2941 train_acc 0.8778 val_acc 0.6600 val_prec 0.5461 val_recall 0.4333 val_f1 0.4136 val_auc 0.6822
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 17/20 train_loss 0.2975 train_acc 0.8744 val_acc 0.6600 val_prec 0.5461 val_recall 0.4333 val_f1 0.4136 val_auc 0.6853
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 18/20 train_loss 0.3054 train_acc 0.8744 val_acc 0.6600 val_prec 0.5008 val_recall 0.4333 val_f1 0.4096 val_auc 0.6862
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 19/20 train_loss 0.2945 train_acc 0.8778 val_acc 0.6700 val_prec 0.5091 val_recall 0.4500 val_f1 0.4298 val_auc 0.6832
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Epoch 20/20 train_loss 0.2992 train_acc 0.8756 val_acc 0.6600 val_prec 0.5461 val_recall 0.4333 val_f1 0.4136 val_auc 0.6904
+/mnt/nas-hpg9/rizqimrazhari/miniconda3/envs/retina/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+Test metrics: accuracy 0.6139 precision 0.5354 recall 0.3667 f1 0.3122 auc 0.7624
+Best val acc: 0.7100

@@ -1,0 +1,18 @@
+{
+  "image_size": 256,
+  "batch_size": 64,
+  "num_epochs": 100,
+  "latent_space_size": 100,
+  "feature_mapG": 256,
+  "feature_mapD": 256,
+  "lr_g": 0.0016169767471644549,
+  "optimizer_g": "adam",
+  "beta1_g": 0.6258634982629497,
+  "beta2_g": 0.9668032977668417,
+  "lr_d": 0.0027386620555511325,
+  "optimizer_d": "sgd",
+  "beta1_d": 0.46690087714840717,
+  "beta2_d": 0.7302162674109983,
+  "device": "cuda",
+  "exp_name": "normal_256"
+}

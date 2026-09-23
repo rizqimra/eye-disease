@@ -1,0 +1,18 @@
+{
+  "image_size": 64,
+  "batch_size": 32,
+  "num_epochs": 100,
+  "latent_space_size": 100,
+  "feature_mapG": 64,
+  "feature_mapD": 64,
+  "lr_g": 0.0015847305637836295,
+  "optimizer_g": "adam",
+  "beta1_g": 0.5367025405519669,
+  "beta2_g": 0.7312294705940025,
+  "lr_d": 0.0024437755606872545,
+  "optimizer_d": "sgd",
+  "beta1_d": 0.5269060098853122,
+  "beta2_d": 0.9645470646428935,
+  "device": "cuda",
+  "exp_name": "glaucoma_64"
+}

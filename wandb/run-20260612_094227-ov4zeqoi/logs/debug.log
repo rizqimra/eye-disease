@@ -1,0 +1,25 @@
+2026-06-12 09:42:27,682 INFO    MainThread:3203983 [wandb_setup.py:_flush():81] Current SDK version is 0.27.2
+2026-06-12 09:42:27,682 INFO    MainThread:3203983 [wandb_setup.py:_flush():81] Configure stats pid to 3203983
+2026-06-12 09:42:27,684 INFO    MainThread:3203983 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-06-12 09:42:27,687 INFO    MainThread:3203983 [wandb_init.py:setup_run_log_directory():723] Logging user logs to /mnt/nas-hpg9/rizqimrazhari/eye-disease/wandb/run-20260612_094227-ov4zeqoi/logs/debug.log
+2026-06-12 09:42:27,689 INFO    MainThread:3203983 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to /mnt/nas-hpg9/rizqimrazhari/eye-disease/wandb/run-20260612_094227-ov4zeqoi/logs/debug-internal.log
+2026-06-12 09:42:27,691 INFO    MainThread:3203983 [wandb_init.py:init():766] calling init triggers
+2026-06-12 09:42:27,694 INFO    MainThread:3203983 [wandb_init.py:init():771] wandb.init called with sweep_config: {}
+config: {'data_dir': 'dataset/', 'batch_size': 32, 'image_size': 224, 'num_epochs': 20, 'lr': 0.001, 'momentum': 0.9, 'device': 'cuda', 'exp_name': 'resnet50', 'seed': 42, 'val_pct': 0.2, 'test_pct': 0.2, 'aug_dir': 'augmented_acdcgan/', 'use_weighted_loss': False, 'wandb': True, 'wandb_project': 'eye-disease-classification', 'wandb_entity': None, 'wandb_run_name': 'resnet50_acdcgan64', '_wandb': {}}
+2026-06-12 09:42:27,697 INFO    MainThread:3203983 [wandb_init.py:init():814] starting backend
+2026-06-12 09:42:27,699 INFO    MainThread:3203983 [wandb_init.py:init():829] sending inform_init request
+2026-06-12 09:42:28,852 INFO    MainThread:3203983 [wandb_init.py:init():834] backend started and connected
+2026-06-12 09:42:28,901 INFO    MainThread:3203983 [wandb_init.py:init():904] updated telemetry
+2026-06-12 09:42:28,938 INFO    MainThread:3203983 [wandb_init.py:init():927] communicating run to backend with 90.0 second timeout
+2026-06-12 09:42:29,381 INFO    MainThread:3203983 [wandb_init.py:init():972] starting run threads in backend
+2026-06-12 09:42:29,986 INFO    MainThread:3203983 [wandb_run.py:_console_start():2523] atexit reg
+2026-06-12 09:42:29,986 INFO    MainThread:3203983 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-06-12 09:42:29,986 INFO    MainThread:3203983 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-06-12 09:42:29,986 INFO    MainThread:3203983 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-06-12 09:42:29,995 INFO    MainThread:3203983 [wandb_init.py:init():1010] run started, returning control to user process
+2026-06-12 09:42:43,018 INFO    MainThread:3203983 [wandb_watch.py:_watch():69] Watching
+2026-06-12 09:51:17,871 INFO    MainThread:3203983 [wandb_run.py:_finish():2285] finishing run rizqimrazhari-brawijaya-university/eye-disease-classification/ov4zeqoi
+2026-06-12 09:51:17,873 INFO    MainThread:3203983 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-06-12 09:51:17,877 INFO    MainThread:3203983 [wandb_run.py:_restore():2472] restore
+2026-06-12 09:51:17,878 INFO    MainThread:3203983 [wandb_run.py:_restore():2478] restore done
+2026-06-12 09:51:21,138 INFO    MainThread:3203983 [wandb_run.py:_footer_sync_info():3891] logging synced files

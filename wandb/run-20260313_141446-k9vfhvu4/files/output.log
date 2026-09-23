@@ -1,0 +1,39 @@
+/mnt/extended-home/rizqimrazhari/miniconda3/envs/retina/lib/python3.13/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mnt/extended-home/rizqimrazhari/miniconda3/envs/retina/lib/python3.13/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/mnt/extended-home/rizqimrazhari/miniconda3/envs/retina/lib/python3.13/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch 1/20 train_loss 1.1498 train_acc 0.5633 val_acc 0.6000 val_prec 0.2525 val_recall 0.3444 val_f1 0.2890 val_auc 0.5905
+/mnt/extended-home/rizqimrazhari/miniconda3/envs/retina/lib/python3.13/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch 2/20 train_loss 0.7479 train_acc 0.6833 val_acc 0.2000 val_prec 0.0694 val_recall 0.3333 val_f1 0.1149 val_auc 0.6926
+/mnt/extended-home/rizqimrazhari/miniconda3/envs/retina/lib/python3.13/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch 3/20 train_loss 0.6020 train_acc 0.7600 val_acc 0.2400 val_prec 0.4028 val_recall 0.4000 val_f1 0.2261 val_auc 0.6560
+Epoch 4/20 train_loss 0.5868 train_acc 0.7533 val_acc 0.5800 val_prec 0.7063 val_recall 0.6889 val_f1 0.6055 val_auc 0.8624
+Epoch 5/20 train_loss 0.4848 train_acc 0.7967 val_acc 0.6300 val_prec 0.6404 val_recall 0.7056 val_f1 0.6252 val_auc 0.8540
+Epoch 6/20 train_loss 0.3468 train_acc 0.8567 val_acc 0.7300 val_prec 0.6638 val_recall 0.6278 val_f1 0.6327 val_auc 0.8704
+Epoch 7/20 train_loss 0.2990 train_acc 0.8933 val_acc 0.7100 val_prec 0.6353 val_recall 0.6611 val_f1 0.6340 val_auc 0.8701
+Epoch 8/20 train_loss 0.2537 train_acc 0.9100 val_acc 0.7600 val_prec 0.7039 val_recall 0.7222 val_f1 0.7118 val_auc 0.9076
+Epoch 9/20 train_loss 0.1287 train_acc 0.9533 val_acc 0.7700 val_prec 0.7414 val_recall 0.7056 val_f1 0.7204 val_auc 0.8872
+Epoch 10/20 train_loss 0.1070 train_acc 0.9733 val_acc 0.7600 val_prec 0.7508 val_recall 0.6556 val_f1 0.6742 val_auc 0.8839
+Epoch 11/20 train_loss 0.0828 train_acc 0.9767 val_acc 0.7600 val_prec 0.7362 val_recall 0.6667 val_f1 0.6717 val_auc 0.8990
+Epoch 12/20 train_loss 0.1103 train_acc 0.9633 val_acc 0.7600 val_prec 0.7784 val_recall 0.6556 val_f1 0.6698 val_auc 0.8887
+Epoch 13/20 train_loss 0.0857 train_acc 0.9833 val_acc 0.7600 val_prec 0.7150 val_recall 0.7111 val_f1 0.7124 val_auc 0.9039
+Epoch 14/20 train_loss 0.0686 train_acc 0.9900 val_acc 0.7800 val_prec 0.7390 val_recall 0.7333 val_f1 0.7354 val_auc 0.9143
+Epoch 15/20 train_loss 0.0648 train_acc 0.9933 val_acc 0.7700 val_prec 0.7280 val_recall 0.7167 val_f1 0.7208 val_auc 0.9117
+Epoch 16/20 train_loss 0.0624 train_acc 1.0000 val_acc 0.7900 val_prec 0.7530 val_recall 0.7389 val_f1 0.7443 val_auc 0.9124
+Epoch 17/20 train_loss 0.0559 train_acc 0.9867 val_acc 0.8100 val_prec 0.7996 val_recall 0.7389 val_f1 0.7629 val_auc 0.9092
+Epoch 18/20 train_loss 0.0514 train_acc 0.9900 val_acc 0.8000 val_prec 0.7820 val_recall 0.7333 val_f1 0.7536 val_auc 0.9117
+Epoch 19/20 train_loss 0.0491 train_acc 0.9933 val_acc 0.7900 val_prec 0.7756 val_recall 0.7389 val_f1 0.7520 val_auc 0.9088
+Epoch 20/20 train_loss 0.0492 train_acc 0.9967 val_acc 0.7800 val_prec 0.7667 val_recall 0.7222 val_f1 0.7369 val_auc 0.9075
+/mnt/extended-home/rizqimrazhari/miniconda3/envs/retina/lib/python3.13/site-packages/plotly/matplotlylib/renderer.py:571: UserWarning:
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+Test metrics: accuracy 0.7723 precision 0.7450 recall 0.7349 f1 0.7385 auc 0.9146
+
+/mnt/extended-home/rizqimrazhari/miniconda3/envs/retina/lib/python3.13/site-packages/plotly/matplotlylib/renderer.py:571: UserWarning:
+
+Dang! That path collection is out of this world. I totally don't know what to do with it yet! Plotly can only import path collections linked to 'data' coordinates
+Best val acc: 0.8100

@@ -1,0 +1,115 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            kho8r7qw7uzmvwdep3uyy5s5uhkn8hyp:
+                args:
+                    - --wandb
+                    - --wandb_project
+                    - eye-disease-classification
+                    - --wandb_run_name
+                    - resnet50_base_new2
+                    - --exp_name
+                    - resnet50_base_new2
+                codePath: classification.py
+                codePathLocal: classification.py
+                cpu_count: 80
+                cpu_count_logical: 80
+                cudaVersion: "12.2"
+                disk:
+                    /:
+                        total: "268416708608"
+                        used: "12153589760"
+                email: rizqimrazhari@gmail.com
+                executable: /mnt/extended-home/rizqimrazhari/miniconda3/envs/retina/bin/python
+                git:
+                    commit: 0f3b71ad1233fa7cafedb3d357482935d442f5fd
+                    remote: https://github.com/rizqimra/eye-disease.git
+                gpu: NVIDIA L40
+                gpu_count: 3
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 18176
+                      memoryTotal: "48305799168"
+                      name: NVIDIA L40
+                      uuid: GPU-8ad971ea-ead5-89bd-c26c-b7b0d3015d3e
+                    - architecture: Ada
+                      cudaCores: 18176
+                      memoryTotal: "48305799168"
+                      name: NVIDIA L40
+                      uuid: GPU-1deacedb-a30e-5ea8-065c-9853cf242274
+                    - architecture: Ada
+                      cudaCores: 18176
+                      memoryTotal: "48305799168"
+                      name: NVIDIA L40
+                      uuid: GPU-d444c854-0016-c5ec-b31e-ecb35f9b11b8
+                host: labkc-l40-debian
+                memory:
+                    total: "304266973184"
+                os: Linux-6.1.0-43-amd64-x86_64-with-glibc2.36
+                program: /mnt/extended-home/rizqimrazhari/eye-disease/classification.py
+                python: CPython 3.13.2
+                root: /mnt/extended-home/rizqimrazhari/eye-disease
+                startedAt: "2026-03-13T07:14:46.001501Z"
+                writerId: kho8r7qw7uzmvwdep3uyy5s5uhkn8hyp
+        m: []
+        python_version: 3.13.2
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 51
+                - 53
+            "2":
+                - 1
+                - 5
+                - 41
+                - 51
+                - 53
+            "3":
+                - 1
+                - 2
+                - 13
+                - 16
+                - 61
+            "4": 3.13.2
+            "5": 0.25.1
+            "8":
+                - 2
+            "12": 0.25.1
+            "13": linux-x86_64
+aug_dir:
+    value: null
+batch_size:
+    value: 32
+data_dir:
+    value: dataset/
+device:
+    value: cuda
+exp_name:
+    value: resnet50_base_new2
+image_size:
+    value: 224
+lr:
+    value: 0.001
+momentum:
+    value: 0.9
+num_epochs:
+    value: 20
+seed:
+    value: 42
+test_pct:
+    value: 0.2
+use_weighted_loss:
+    value: false
+val_pct:
+    value: 0.2
+wandb:
+    value: true
+wandb_entity:
+    value: null
+wandb_project:
+    value: eye-disease-classification
+wandb_run_name:
+    value: resnet50_base_new2
